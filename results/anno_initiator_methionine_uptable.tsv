@@ -1,0 +1,59 @@
+entry	pos	evidence	note	origin
+C0HL66	1	ECO:0000250	Removed	initiator_methionine
+C0HL67	1	ECO:0000250	Removed	initiator_methionine
+O16797	1	ECO:0000250	Removed	initiator_methionine
+O96827	1	ECO:0000250	Removed	initiator_methionine
+P00334	1	ECO:0000269|PubMed:115502, ECO:0000269|PubMed:6821373	Removed	initiator_methionine
+P02283	1		Removed	initiator_methionine
+P02299	1	ECO:0000305	Removed	initiator_methionine
+P04657	1	ECO:0000250	Removed	initiator_methionine
+P07764	1	ECO:0000269|PubMed:1959612, ECO:0000269|PubMed:3918528	Removed	initiator_methionine
+P08181	1	ECO:0000269|PubMed:3468112	Removed	initiator_methionine
+P08761	1	ECO:0000269|PubMed:12145281, ECO:0000269|PubMed:30529269	Removed	initiator_methionine
+P08879	1	ECO:0000269|PubMed:12099695	Removed	initiator_methionine
+P08928	1	ECO:0000250|UniProtKB:P20700	Removed	initiator_methionine
+P08985	1	ECO:0000250	Removed	initiator_methionine
+P09956	1		Removed	initiator_methionine
+P12370	1	ECO:0000250	Removed	initiator_methionine
+P13060	1	ECO:0000250	Removed	initiator_methionine
+P16378	1	ECO:0000250	Removed	initiator_methionine
+P17704	1		Removed	initiator_methionine
+P18432	1	ECO:0000269|PubMed:3025224	Removed	initiator_methionine
+P20353	1	ECO:0000250	Removed	initiator_methionine
+P20354	1	ECO:0000250	Removed	initiator_methionine
+P22817	1	ECO:0000269|PubMed:3139025	Removed	initiator_methionine
+P25160	1	ECO:0000255	Removed	initiator_methionine
+P26270	1	ECO:0000269|PubMed:10893261	Removed	initiator_methionine
+P26686	1	ECO:0000269|PubMed:1717489	Removed	initiator_methionine
+P36179	1	ECO:0000250	Removed	initiator_methionine
+P36188	1	ECO:0000250	Removed	initiator_methionine
+P37236	1	ECO:0000250|UniProtKB:P62168	Removed	initiator_methionine
+P39018	1	ECO:0000250	Removed	initiator_methionine
+P40945	1	ECO:0000255	Removed	initiator_methionine
+P40946	1	ECO:0000255	Removed	initiator_methionine
+P42325	1		Removed	initiator_methionine
+P46415	1	ECO:0000305	Removed	initiator_methionine
+P48149	1	ECO:0000250	Removed	initiator_methionine
+P55830	1	ECO:0000255|HAMAP-Rule:MF_03122	Removed	initiator_methionine
+P56544	1	ECO:0000250	Removed	initiator_methionine
+P61209	1	ECO:0000255	Removed	initiator_methionine
+P61851	1	ECO:0000269|PubMed:3919383, ECO:0000269|PubMed:3929689	Removed	initiator_methionine
+P62152	1		Removed	initiator_methionine
+P84029	1	ECO:0000269|PubMed:3029051	Removed	initiator_methionine
+P84040	1	ECO:0000250	Removed	initiator_methionine
+P84051	1	ECO:0000250	Removed	initiator_methionine
+P91621	1	ECO:0000255	Removed	initiator_methionine
+Q03334	1	ECO:0000250	Removed	initiator_methionine
+Q06849	1	ECO:0000255	Removed	initiator_methionine
+Q0E9B6	1	ECO:0000250|UniProtKB:P62280	Removed	initiator_methionine
+Q5LJP9	1	ECO:0000250	Removed	initiator_methionine
+Q7KNA0	1	ECO:0000250	Removed	initiator_methionine
+Q7KR04	1	ECO:0000250	Removed	initiator_methionine
+Q7KS38	1	ECO:0000250	Removed	initiator_methionine
+Q8INK9	1		Removed	initiator_methionine
+Q94920	1	ECO:0000269|PubMed:8797793	Removed	initiator_methionine
+Q9NFZ3	1	ECO:0000269|PubMed:15205461	Removed	initiator_methionine
+Q9VLL3	1	ECO:0000269|PubMed:10480937	Removed	initiator_methionine
+Q9VMU4	1	ECO:0000250	Removed	initiator_methionine
+Q9VN91	1	ECO:0000269|PubMed:20107052	Removed	initiator_methionine
+Q9VWX8	1	ECO:0000250|UniProtKB:P62168	Removed	initiator_methionine

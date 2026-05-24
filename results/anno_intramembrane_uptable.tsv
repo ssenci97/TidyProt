@@ -1,0 +1,31 @@
+entry	pos	evidence	note	origin
+O02194	507-527	ECO:0000255	Helical; Name=9	intramembrane
+P08510	430-441	ECO:0000250|UniProtKB:P63142	Helical; Name=Pore helix	intramembrane
+P08510	442-449	ECO:0000250|UniProtKB:P63142		intramembrane
+P35500	1496-1517	ECO:0000250|UniProtKB:D0E0C2	Pore-forming	intramembrane
+P35500	1788-1810	ECO:0000250|UniProtKB:D0E0C2	Pore-forming	intramembrane
+P35500	374-398	ECO:0000250|UniProtKB:D0E0C2	Pore-forming	intramembrane
+P35500	986-1006	ECO:0000250|UniProtKB:D0E0C2	Pore-forming	intramembrane
+Q02280	442-467	ECO:0000255	Pore-forming; Name=Segment H5	intramembrane
+Q03720	285-307	ECO:0000255	Pore-forming; Name=P region	intramembrane
+Q24498	4974-4983	ECO:0000250	Pore-forming	intramembrane
+Q7KVW5	696-716	ECO:0000255	Pore-forming; Name=Segment H5	intramembrane
+Q7Z020	969-989	ECO:0000250|UniProtKB:O75762	Pore-forming	intramembrane
+Q8I0P1	122-142	ECO:0000255|HAMAP-Rule:MF_03021	Helical	intramembrane
+Q94526	208-224	ECO:0000255	Pore-forming; Name=Pore-forming 2	intramembrane
+Q94526	95-111	ECO:0000255	Pore-forming; Name=Pore-forming 1	intramembrane
+Q9V6G5	138-158	ECO:0000255		intramembrane
+Q9VBW0	101-121	ECO:0000250|UniProtKB:Q9NPB0	Helical	intramembrane
+Q9VGH7	245-252	ECO:0000250	Helical	intramembrane
+Q9VGH7	320-332	ECO:0000250	Helical	intramembrane
+Q9VGH7	336-344	ECO:0000250	Helical	intramembrane
+Q9VGH7	576-590	ECO:0000250	Helical	intramembrane
+Q9VGH7	591-592	ECO:0000250	Note=Loop between two helices	intramembrane
+Q9VGH7	593-604	ECO:0000250	Helical	intramembrane
+Q9VGH7	605-609	ECO:0000250	Note=Loop between two helices	intramembrane
+Q9VHV5	1-19	ECO:0000250	Note=Mediates targeting to membranes	intramembrane
+Q9VRR2	357-374	ECO:0000250|UniProtKB:Q9UBH6	Helical	intramembrane
+Q9W0Y8	1944-1965	ECO:0000250|UniProtKB:D0E0C2	Pore-forming	intramembrane
+Q9W0Y8	2237-2259	ECO:0000250|UniProtKB:D0E0C2	Pore-forming	intramembrane
+Q9W0Y8	341-365	ECO:0000250|UniProtKB:D0E0C2	Pore-forming	intramembrane
+Q9W0Y8	853-873	ECO:0000250|UniProtKB:D0E0C2	Pore-forming	intramembrane

@@ -1,0 +1,48 @@
+entry	pos	evidence	note	origin
+A8DYH2	69	ECO:0000250|UniProtKB:P61960	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in UFM1)	cross_link
+A8DYH2	83	ECO:0000255	Glycyl lysine isopeptide (Gly-Lys) (interchain with K-? in acceptor proteins)	cross_link
+O02193	372	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O02193	483	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O02193	532	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O02193	539	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O02193	715	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O02193	749	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O02193	776	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O02193	798	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O02193	801	ECO:0000269|PubMed:28510597	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+O62609	141	ECO:0000269|PubMed:18794353	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO)	cross_link
+O62609	185	ECO:0000269|PubMed:18794353	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO)	cross_link
+O62609	248	ECO:0000269|PubMed:18794353	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO)	cross_link
+O62609	738	ECO:0000305|PubMed:22745309	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P00399	238-242	ECO:0000250|UniProtKB:P00401	1'-histidyl-3'-tyrosine (His-Tyr)	cross_link
+P02283	118	ECO:0000269|PubMed:21764853, ECO:0000305|PubMed:18188155	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P04052	1260	ECO:0000250|UniProtKB:P04050	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P08985	121	ECO:0000250	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P0CG69	48	ECO:0000250	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P0CG69	76	ECO:0000255|PROSITE-ProRule:PRU00214	Glycyl lysine isopeptide (Gly-Lys) (interchain with K-? in acceptor proteins)	cross_link
+P15357	48		Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P15357	76		Glycyl lysine isopeptide (Gly-Lys) (interchain with K-? in acceptor proteins)	cross_link
+P17789	123	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P17789	201	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P17789	355	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P17789	397	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P17789	418	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P17789	457	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P17789	478	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P17789	480	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P17789	545	ECO:0000269|PubMed:18160715	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P18101	48		Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+P18101	76		Glycyl lysine isopeptide (Gly-Lys) (interchain with K-? in acceptor proteins)	cross_link
+P84051	119	ECO:0000305|PubMed:15386022	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+Q24311	718	ECO:0000250|UniProtKB:Q13616	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in NEDD8)	cross_link
+Q7KU86	101	ECO:0000255|HAMAP-Rule:MF_03048	Glycyl lysine isopeptide (Gly-Lys) (interchain with K-? in acceptor proteins)	cross_link
+Q8MYL1	595	ECO:0000250|UniProtKB:Q9BXW9	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+Q94920	109	ECO:0000269|PubMed:32047033	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+Q94920	11	ECO:0000269|PubMed:32047033	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+Q94920	19	ECO:0000269|PubMed:32047033	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+Q94920	273	ECO:0000269|PubMed:32047033	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+Q94920	52	ECO:0000269|PubMed:32047033	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)	cross_link
+Q9VJ33	76		Glycyl lysine isopeptide (Gly-Lys) (interchain with K-? in acceptor proteins)	cross_link
+Q9VTU1	111	ECO:0000250	Glycyl lysine isopeptide (Gly-Lys) (interchain with K-132 in APG5)	cross_link
+Q9VYB0	34-37	ECO:0000250	Cysteinyl-selenocysteine (Cys-Sec); redox-active	cross_link
+Q9W3R7	132	ECO:0000250	Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ATG12)	cross_link
