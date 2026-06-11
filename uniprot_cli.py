@@ -1,4 +1,3 @@
-# tidyprot/cli.py
 import argparse
 
 UNIPROTKB_RETURN_FIELDS = [
@@ -78,39 +77,29 @@ UNIPROTKB_RETURN_FIELDS = [
 
 default_fields = ["accession", "id", "protein_name", "gene_names", "organism_name", "organism_id", "length"]
 
+
 def get_args(mode: str = "query"):
-    parser = argparse.ArgumentParser(description="tidyprot workflow")
+    parser = argparse.ArgumentParser(description="tidyprot UniProtKB workflow")
 
     if mode == "query":
-        parser.add_argument("--source", required=True, choices=["NCBI", "UniProtKB"])
         parser.add_argument("--query", required=True, type=str)
     elif mode == "debug":
-        parser.add_argument("--source", choices=["NCBI", "UniProtKB"], default=None)
         parser.add_argument("--query", type=str, default=None)
 
-    group = parser.add_mutually_exclusive_group()
-    group.add_argument(
+    parser.add_argument(
         "--UniProtKB_fields",
         type=str,
         default=",".join(default_fields),
         help="Comma-separated UniProtKB return fields"
     )
-    group.add_argument(
-        "--NCBI_fields",
-        type=str,
-        default="gp",
-        help="Comma-separated NCBI return fields"
-    )
 
     args = parser.parse_args()
 
     args.UniProtKB_fields = [f.strip() for f in args.UniProtKB_fields.split(",")]
-    args.NCBI_fields = [f.strip() for f in args.NCBI_fields.split(",")]
 
-    if args.source == "UniProtKB" or (mode == "debug" and args.source is None):
-        invalid = [f for f in args.UniProtKB_fields if f not in UNIPROTKB_RETURN_FIELDS]
-        if invalid:
-            parser.error(f"Invalid UniProtKB return fields: {', '.join(invalid)}")
+    invalid = [f for f in args.UniProtKB_fields if f not in UNIPROTKB_RETURN_FIELDS]
+    if invalid:
+        parser.error(f"Invalid UniProtKB return fields: {', '.join(invalid)}")
 
     return args
 
