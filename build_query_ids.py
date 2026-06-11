@@ -4,6 +4,18 @@ import urllib.request
 import re
 
 
+class IDsNCBI:
+    def __init__(self, ids: list):
+        self.ids = ids
+        self.count = len(ids)
+
+
+class IDsUniProtKB:
+    def __init__(self, ids: list):
+        self.ids = ids
+        self.count = len(ids)
+
+
 class URLQueryIDs:
     def __init__(self, source: str, query: str):
         self.source = source
@@ -26,13 +38,16 @@ class URLQueryIDs:
         else:
             raise ValueError(f"Unknown source: {self.source}")
     
-    def get_ids(self) -> list:
+    def get_ids(self):
         with urllib.request.urlopen(self.url, timeout=60) as r:
             text = r.read().decode("utf-8")
         
         if self.source == "NCBI":
-            return re.findall(r"<Id>(\d+)</Id>", text)
+            ids = re.findall(r"<Id>(\d+)</Id>", text)
+            return IDsNCBI(ids)
+        
         elif self.source == "UniProtKB":
             lines = text.strip().split("\n")
-            return [line for line in lines[1:] if line]
+            ids = [line for line in lines[1:] if line]
+            return IDsUniProtKB(ids)
 
