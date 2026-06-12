@@ -8,13 +8,12 @@ class DataUniProtKBUrlList:
         self.count = len(urls)
 
 
-def build_data_urls_uniprotkb(ids_uniprot, fields: list, verbose: bool = False) -> DataUniProtKBUrlList:
+def build_data_urls_uniprotkb(ids_uniprot, fields: list = None, verbose: bool = False) -> DataUniProtKBUrlList:
     ids = ids_uniprot.ids
     if not ids:
         return DataUniProtKBUrlList([])
-    fields_str = ",".join(fields)
     max_url_len = 7500
-    base = "https://rest.uniprot.org/uniprotkb/stream?format=tsv&fields=" + fields_str + "&query="
+    base = "https://rest.uniprot.org/uniprotkb/stream?format=json&query="
     base_len = len(base)
     urls = []
     current_batch = []
@@ -30,5 +29,4 @@ def build_data_urls_uniprotkb(ids_uniprot, fields: list, verbose: bool = False) 
         query = "+OR+".join(f"accession:{a}" for a in current_batch)
         urls.append(base + urllib.parse.quote(query, safe="+"))
     return DataUniProtKBUrlList(urls)
-
 

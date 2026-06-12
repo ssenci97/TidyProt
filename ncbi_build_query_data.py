@@ -37,7 +37,7 @@ def build_data_urls_ncbi(ids_ncbi, batch_size: int = 500, api_key: str = None, v
         url = (
             "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
             f"?db=protein&WebEnv={urllib.parse.quote(webenv)}"
-            f"&query_key={query_key}&rettype=gp&retmode=text&tool=tidyprot"
+            f"&query_key={query_key}&rettype=gp&retmode=xml&tool=tidyprot"
         )
         if api_key:
             url += f"&api_key={api_key}"
@@ -45,4 +45,3 @@ def build_data_urls_ncbi(ids_ncbi, batch_size: int = 500, api_key: str = None, v
         if i + batch_size < len(ids):
             time.sleep(0.35 if not api_key else 0.11)
     return DataNCBIUrlList(urls)
-
